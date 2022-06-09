@@ -1,0 +1,19 @@
+package com.sid.business;
+
+import static org.junit.Assert.*;
+import static org.mockito.Mockito.mock;
+
+import java.awt.List;
+
+import org.junit.Test;
+
+public class ListTest 
+{
+
+	@Test
+	public void test() 
+	{
+		List listMock=mock(List.class);
+	}
+
+}

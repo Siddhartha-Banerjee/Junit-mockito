@@ -1,0 +1,20 @@
+package com.sid.business;
+
+import java.util.List;
+
+import org.junit.Test;
+
+import com.sid.data.api.todoService;
+import com.sid.data.api.todoServiceStub;
+
+public class todoBusinessImplStubTest 
+{
+	@Test
+	public void test()
+	{
+		todoService tds=new todoServiceStub();
+		todoBusinessImpl tdbi=new todoBusinessImpl(tds);
+		List<String>filteredTodos=tdbi.retrieveTodoRelatedToSpring("dummy");
+	}
+
+}

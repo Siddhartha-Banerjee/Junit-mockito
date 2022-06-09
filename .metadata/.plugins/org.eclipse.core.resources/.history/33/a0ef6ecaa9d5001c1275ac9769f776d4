@@ -1,0 +1,14 @@
+package com.sid.mokito;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class hamcrestTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

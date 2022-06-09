@@ -1,0 +1,15 @@
+package com.sid.business;
+
+import com.sid.data.api.todoService;
+import com.sid.data.api.todoServiceStub;
+
+public class todoBusinessImplStubTest 
+{
+	@Test
+	public void test()
+	{
+		todoServiceStub tds=new todoServiceStub();
+		
+	}
+
+}

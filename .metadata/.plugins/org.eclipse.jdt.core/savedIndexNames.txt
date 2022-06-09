@@ -1,0 +1,19 @@
+INDEX VERSION 1.131+E:\mokito_junit\ecplise_workspace\.metadata\.plugins\org.eclipse.jdt.core
+1021960800.index
+1865797976.index
+75931715.index
+4230334888.index
+56953945.index
+3856292998.index
+531192556.index
+77228329.index
+752013324.index
+508001859.index
+546647866.index
+465455340.index
+3944329533.index
+2988492939.index
+650915477.index
+3576641366.index
+3259474232.index
+1739419038.index

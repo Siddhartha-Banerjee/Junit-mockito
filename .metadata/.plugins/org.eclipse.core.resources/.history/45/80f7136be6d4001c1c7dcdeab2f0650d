@@ -1,0 +1,24 @@
+package com.sid.business;
+
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.mock;
+
+import java.util.List;
+
+import org.junit.Test;
+
+import com.sid.data.api.todoService;
+import com.sid.data.api.todoServiceStub;
+
+public class todoBusinessImplMockTest 
+{
+	@Test
+	public void testRetrieveTodosRelatedToSpringMock()
+	{
+		todoService tdsmock=mock(todoService.class);
+		todoBusinessImpl tdbi=new todoBusinessImpl(tdsmock);
+		List<String>filteredTodos=tdbi.retrieveTodoRelatedToSpring("dummy");
+		assertEquals(2,filteredTodos.size());
+	}
+
+}

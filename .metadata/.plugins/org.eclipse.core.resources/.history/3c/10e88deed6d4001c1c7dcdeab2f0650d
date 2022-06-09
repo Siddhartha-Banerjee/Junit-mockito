@@ -1,0 +1,21 @@
+package com.sid.business;
+
+import java.util.List;
+
+import com.sid.data.api.todo_service;
+
+public class todoBusinessImpl 
+{
+	private todo_service todoService;
+
+	public todoBusinessImpl(todo_service todoService) 
+	{
+		super();
+		this.todoService = todoService;
+	}
+	
+	public List<String> retrieveTodoRelatedToSpring()
+	{
+		
+	}
+}
